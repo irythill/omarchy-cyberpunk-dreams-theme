@@ -104,5 +104,5 @@ This theme is licensed under the MIT License. See the [LICENSE](LICENSE) file fo
 
 - Author: deathko
 - Inspired by: Cyberpunk and anime art styles
-- Wallpaper: Sasha Yakovleva from the (https://www.youtube.com/watch?v=BnnbP7pCIvQ)[Let You Down] Ending Theme - Cyberpunk: Edgerunners 
+- Wallpaper: Sasha Yakovleva from the [Let You Down](https://www.youtube.com/watch?v=BnnbP7pCIvQ) Ending Theme - Cyberpunk: Edgerunners 
 - Special thanks to the Omarchy community, loving this ISO <3
