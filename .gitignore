@@ -46,13 +46,6 @@ local.toml
 local.conf
 local.json
 
-# Screenshots and media (keep preview.png)
-screenshot*
-*.jpg
-*.jpeg
-*.png
-!preview.png
-
 # Build artifacts
 dist/
 build/
