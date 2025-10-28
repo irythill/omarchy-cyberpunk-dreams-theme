@@ -34,20 +34,20 @@
 
 | Color | Preview | Hex Code | Usage |
 |-------|---------|----------|-------|
-| **Deep Purple** | ![#240B39](https://via.placeholder.com/50x30/240B39/FFFFFF?text=+) | `#240B39` | Main background |
-| **Magenta Neon** | ![#B50BBF](https://via.placeholder.com/50x30/B50BBF/FFFFFF?text=+) | `#B50BBF` | Primary accent, selections |
-| **Cyan** | ![#7CC3E0](https://via.placeholder.com/50x30/7CC3E0/000000?text=+) | `#7CC3E0` | Secondary accent, progress bars |
-| **Pink Light** | ![#F5A6F9](https://via.placeholder.com/50x30/F5A6F9/000000?text=+) | `#F5A6F9` | Soft accents, metadata |
-| **Pink Neon** | ![#EB6BED](https://via.placeholder.com/50x30/EB6BED/000000?text=+) | `#EB6BED` | Bright accents, highlights |
-| **Teal** | ![#42A8A0](https://via.placeholder.com/50x30/42A8A0/FFFFFF?text=+) | `#42A8A0` | Status indicators, genres |
+| **Deep Purple** | <img src="https://img.shields.io/badge/Deep%20Purple-240B39-240B39?style=for-the-badge&labelColor=240B39&color=FFFFFF" alt="#240B39" /> | `#240B39` | Main background |
+| **Magenta Neon** | <img src="https://img.shields.io/badge/Magenta%20Neon-B50BBF-B50BBF?style=for-the-badge&labelColor=B50BBF&color=FFFFFF" alt="#B50BBF" /> | `#B50BBF` | Primary accent, selections |
+| **Cyan** | <img src="https://img.shields.io/badge/Cyan-7CC3E0-7CC3E0?style=for-the-badge&labelColor=7CC3E0&color=000000" alt="#7CC3E0" /> | `#7CC3E0` | Secondary accent, progress bars |
+| **Pink Light** | <img src="https://img.shields.io/badge/Pink%20Light-F5A6F9-F5A6F9?style=for-the-badge&labelColor=F5A6F9&color=000000" alt="#F5A6F9" /> | `#F5A6F9` | Soft accents, metadata |
+| **Pink Neon** | <img src="https://img.shields.io/badge/Pink%20Neon-EB6BED-EB6BED?style=for-the-badge&labelColor=EB6BED&color=000000" alt="#EB6BED" /> | `#EB6BED` | Bright accents, highlights |
+| **Teal** | <img src="https://img.shields.io/badge/Teal-42A8A0-42A8A0?style=for-the-badge&labelColor=42A8A0&color=FFFFFF" alt="#42A8A0" /> | `#42A8A0` | Status indicators, genres |
 
 ### 🎨 Secondary Colors
 
 | Color | Preview | Hex Code | Usage |
 |-------|---------|----------|-------|
-| **Medium Purple** | ![#352B82](https://via.placeholder.com/50x30/352B82/FFFFFF?text=+) | `#352B82` | Secondary background |
-| **Blue Purple** | ![#2C17CA](https://via.placeholder.com/50x30/2C17CA/FFFFFF?text=+) | `#2C17CA` | Borders, inactive elements |
-| **Lavender White** | ![#EBE2FB](https://via.placeholder.com/50x30/EBE2FB/000000?text=+) | `#EBE2FB` | Primary text color |
+| **Medium Purple** | <img src="https://img.shields.io/badge/Medium%20Purple-352B82-352B82?style=for-the-badge&labelColor=352B82&color=FFFFFF" alt="#352B82" /> | `#352B82` | Secondary background |
+| **Blue Purple** | <img src="https://img.shields.io/badge/Blue%20Purple-2C17CA-2C17CA?style=for-the-badge&labelColor=2C17CA&color=FFFFFF" alt="#2C17CA" /> | `#2C17CA` | Borders, inactive elements |
+| **Lavender White** | <img src="https://img.shields.io/badge/Lavender%20White-EBE2FB-EBE2FB?style=for-the-badge&labelColor=EBE2FB&color=000000" alt="#EBE2FB" /> | `#EBE2FB` | Primary text color |
 
 </div>
 
