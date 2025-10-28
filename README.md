@@ -50,55 +50,6 @@ ln -sf ~/.config/omarchy/themes/cyberpunk-dreams ~/.config/omarchy/current/theme
 
 Then restart your Hyprland session or terminal applications.
 
-## External Application Themes
-
-### Spotify Player (Terminal)
-
-**Installation:**
-```bash
-# Install spotify-player if not already installed
-sudo pacman -S spotify-player
-
-# Copy theme to spotify-player themes directory
-mkdir -p ~/.config/spotify-player/themes
-cp ~/.config/omarchy/themes/cyberpunk-dreams/spotify-player.toml ~/.config/spotify-player/themes/
-
-# Update spotify-player configuration
-sed -i 's/theme = ".*"/theme = "cyberpunk-dreams"/' ~/.config/spotify-player/app.toml
-```
-
-**Features:**
-- High contrast colors for better readability
-- Cyberpunk-inspired color palette
-- Optimized for metadata visibility (repeat, shuffle, volume, device)
-- Neon purple, magenta, cyan, and pink accents
-- Dark purple background with excellent contrast
-
-**Configuration:**
-The theme automatically applies when spotify-player starts. The configuration file is located at `~/.config/spotify-player/app.toml`.
-
-**Location:** `~/.config/omarchy/themes/cyberpunk-dreams/spotify-player.toml`
-
-### Spotify (Spicetify)
-
-**Installation:**
-```bash
-# Configure theme
-spicetify config current_theme cyberpunk-dreams
-spicetify config color_scheme BaseScheme
-
-# Apply
-spicetify backup apply
-```
-
-**Features:**
-- Soft gradient backgrounds with cyan accents
-- Glowing play buttons and progress bars
-- Smooth hover effects on cards
-- Colorful module icons
-
-**Location:** `~/.config/spicetify/Themes/cyberpunk-dreams/`
-
 ## Rollback
 
 To return to a previous theme:
@@ -106,51 +57,6 @@ To return to a previous theme:
 ```bash
 ln -sf ~/.config/omarchy/themes/lunar-dreams ~/.config/omarchy/current/theme
 ```
-
-## Troubleshooting
-
-### Spotify Player Issues
-
-**Theme not applying:**
-```bash
-# Check if theme file exists
-ls -la ~/.config/spotify-player/themes/cyberpunk-dreams.toml
-
-# Verify configuration
-grep "theme" ~/.config/spotify-player/app.toml
-
-# Restart spotify-player
-pkill spotify_player
-spotify_player
-```
-
-**Low contrast issues:**
-- The theme is specifically designed for high contrast
-- Ensure your terminal supports true color (24-bit)
-- Try adjusting terminal opacity if text appears washed out
-
-### General Theme Issues
-
-**Colors not appearing correctly:**
-- Restart your terminal application after theme activation
-- Ensure all required dependencies are installed
-- Check that the theme symlink is correct: `ls -la ~/.config/omarchy/current/theme`
-
-**Hyprland not applying theme:**
-```bash
-# Reload Hyprland configuration
-hyprctl reload
-
-# Or restart Hyprland session
-pkill Hyprland
-```
-
-### Performance Issues
-
-**Slow terminal rendering:**
-- Disable image rendering in spotify-player if not needed
-- Reduce terminal transparency
-- Use hardware acceleration if available
 
 ## Color Reference
 
@@ -198,5 +104,5 @@ This theme is licensed under the MIT License. See the [LICENSE](LICENSE) file fo
 
 - Author: deathko
 - Inspired by: Cyberpunk and anime art styles
-- Wallpaper: Cyberpunk anime artwork
-- Special thanks to the Omarchy community for feedback and suggestions
+- Wallpaper: Sasha Yakovleva from the (https://www.youtube.com/watch?v=BnnbP7pCIvQ)[Let You Down] Ending Theme - Cyberpunk: Edgerunners 
+- Special thanks to the Omarchy community, loving this ISO <3
