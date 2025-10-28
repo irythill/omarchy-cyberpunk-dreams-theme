@@ -1,0 +1,74 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*~
+*.swp
+*.swo
+*#
+.#*
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Cache directories
+.cache/
+*.cache
+
+# Node modules (if any)
+node_modules/
+
+# Python cache (if any)
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Local configuration overrides
+local.toml
+local.conf
+local.json
+
+# Screenshots and media (keep preview.png)
+screenshot*
+*.jpg
+*.jpeg
+*.png
+!preview.png
+
+# Build artifacts
+dist/
+build/
+*.o
+*.so
+*.dylib
+
+# Package files
+*.deb
+*.rpm
+*.pkg
+*.dmg
+
+# Archive files
+*.zip
+*.tar.gz
+*.tar.bz2
+*.7z
+*.rar

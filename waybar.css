@@ -1,0 +1,18 @@
+@define-color foreground #EBE2FB;
+@define-color background #240B39;
+
+/* Workspace colors */
+@define-color workspace-active #B50BBF;
+@define-color workspace-visible #F5A6F9;
+@define-color workspace-empty #352B82;
+
+/* Module colors */
+@define-color clock #F5A6F9;
+@define-color cpu #7CC3E0;
+@define-color battery #7CC3E0;
+@define-color network #42A8A0;
+@define-color volume #EB6BED;
+@define-color pulseaudio #7CC3E0;
+@define-color bluetooth #7CC3E0;
+@define-color tray #F5A6F9;
+@define-color custom-omarchy #B50BBF;

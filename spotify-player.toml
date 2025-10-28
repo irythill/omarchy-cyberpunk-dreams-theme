@@ -1,0 +1,68 @@
+# Cyberpunk Dreams Theme for Spotify Player
+# By: deathko
+# Inspired by cyberpunk and anime aesthetics with neon purple, magenta, cyan, and pink colors
+
+[theme]
+name = "cyberpunk-dreams"
+description = "Custom theme inspired by cyberpunk and anime aesthetics"
+
+# Main colors
+background = "#240B39"          # Deep purple-black (main background)
+foreground = "#EBE2FB"          # Lavender white (primary text)
+accent = "#B50BBF"              # Magenta neon (primary accent)
+secondary = "#7CC3E0"           # Cyan (secondary accent)
+tertiary = "#F5A6F9"            # Pink light (soft pink)
+highlight = "#EB6BED"           # Pink neon (bright pink accent)
+teal = "#42A8A0"                # Teal (green-blue accent)
+
+# Text colors with high contrast
+text_primary = "#EBE2FB"        # High contrast white
+text_secondary = "#F5A6F9"      # High contrast pink for metadata
+text_muted = "#7CC3E0"          # High contrast cyan for less important info
+text_accent = "#B50BBF"         # High contrast magenta for highlights
+
+# Status colors
+status_playing = "#42A8A0"      # Teal for playing status
+status_paused = "#F5A6F9"       # Pink for paused status
+status_stopped = "#7CC3E0"      # Cyan for stopped status
+
+# Progress bar colors
+progress_filled = "#7CC3E0"     # Cyan for filled progress
+progress_empty = "#352B82"      # Medium purple for empty progress
+progress_cursor = "#B50BBF"     # Magenta for progress cursor
+
+# Selection colors
+selection_background = "#B50BBF" # Magenta background for selection
+selection_foreground = "#240B39" # Dark text on selection
+hover_background = "#352B82"    # Medium purple for hover
+hover_foreground = "#EBE2FB"    # White text on hover
+
+# Border colors
+border_active = "#EB6BED"       # Pink neon for active borders
+border_inactive = "#2C17CA"     # Blue-purple for inactive borders
+border_focus = "#B50BBF"        # Magenta for focus borders
+
+# Metadata colors (high contrast for better readability)
+metadata_repeat = "#F5A6F9"     # High contrast pink
+metadata_shuffle = "#F5A6F9"    # High contrast pink
+metadata_volume = "#F5A6F9"     # High contrast pink
+metadata_device = "#F5A6F9"     # High contrast pink
+metadata_genre = "#42A8A0"      # High contrast teal
+
+# Table colors
+table_header = "#7CC3E0"        # Cyan for table headers
+table_row_even = "#240B39"      # Dark background for even rows
+table_row_odd = "#352B82"       # Medium purple for odd rows
+table_selected = "#B50BBF"      # Magenta for selected row
+
+# Popup colors
+popup_background = "#240B39"    # Dark background
+popup_border = "#B50BBF"        # Magenta border
+popup_title = "#EBE2FB"         # White title
+popup_text = "#F5A6F9"          # Pink text
+
+# Error and warning colors
+error = "#B50BBF"               # Magenta for errors
+warning = "#F5A6F9"             # Pink for warnings
+success = "#42A8A0"             # Teal for success
+info = "#7CC3E0"                # Cyan for info

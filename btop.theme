@@ -1,0 +1,83 @@
+# Theme: cyberpunk-dreams
+# By: deathko
+# Inspired by cyberpunk and anime aesthetics
+
+# Main bg
+theme[main_bg]="#240B39"
+
+# Main text color
+theme[main_fg]="#EBE2FB"
+
+# Title color for boxes
+theme[title]="#EBE2FB"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#B50BBF"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#352B82"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#EBE2FB"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#B50BBF"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#7CC3E0"
+
+# Cpu box outline color
+theme[cpu_box]="#2C17CA"
+
+# Memory/disks box outline color
+theme[mem_box]="#2C17CA"
+
+# Net up/down box outline color
+theme[net_box]="#2C17CA"
+
+# Processes box outline color
+theme[proc_box]="#2C17CA"
+
+# Box divider line and small boxes line color
+theme[div_line]="#2C17CA"
+
+# Temperature graph colors
+theme[temp_start]="#B50BBF"
+theme[temp_mid]="#F5A6F9"
+theme[temp_end]="#7CC3E0"
+
+# CPU graph colors
+theme[cpu_start]="#B50BBF"
+theme[cpu_mid]="#F5A6F9"
+theme[cpu_end]="#7CC3E0"
+
+# Mem/Disk free meter
+theme[free_start]="#B50BBF"
+theme[free_mid]="#F5A6F9"
+theme[free_end]="#7CC3E0"
+
+# Mem/Disk cached meter
+theme[cached_start]="#B50BBF"
+theme[cached_mid]="#F5A6F9"
+theme[cached_end]="#7CC3E0"
+
+# Mem/Disk available meter
+theme[available_start]="#B50BBF"
+theme[available_mid]="#F5A6F9"
+theme[available_end]="#7CC3E0"
+
+# Mem/Disk used meter
+theme[used_start]="#B50BBF"
+theme[used_mid]="#F5A6F9"
+theme[used_end]="#7CC3E0"
+
+# Download graph colors
+theme[download_start]="#B50BBF"
+theme[download_mid]="#F5A6F9"
+theme[download_end]="#7CC3E0"
+
+# Upload graph colors
+theme[upload_start]="#B50BBF"
+theme[upload_mid]="#F5A6F9"
+theme[upload_end]="#7CC3E0"
+
