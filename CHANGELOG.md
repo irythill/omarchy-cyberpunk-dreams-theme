@@ -5,6 +5,28 @@ All notable changes to the Cyberpunk Dreams theme will be documented in this fil
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2026-09-03
+
+### Changed
+- Migrated to the current Omarchy theming format: a single `colors.toml`
+  is now the source of truth, with Hyprland, terminal emulators, btop,
+  Chromium, Neovim (via `aether.nvim`) and the Omarchy shell all themed
+  from it automatically.
+- Replaced the VS Code theme reference with `robb0wen.synthwave84`, a
+  neon-retrowave theme that actually matches this palette (previously
+  pointed at Tokyo Night).
+- Added `shell.lock.toml` and `keyboard.rgb` for lock-screen and
+  RGB-keyboard theming.
+
+### Removed
+- Hand-written per-app configs no longer read by current Omarchy:
+  `alacritty.toml`, `kitty.conf`, `ghostty.conf`, `hyprland.conf`,
+  `hyprlock.conf`, `waybar.css`, `mako.ini`, `walker.css`,
+  `swayosd.css`, `btop.theme`, `chromium.theme`, `spotify-player.toml`.
+- `neovim.lua`, which pointed at a `deathko/cyberpunk-dreams.nvim`
+  plugin that doesn't exist — Neovim theming is now generated from
+  `colors.toml` via `aether.nvim` like the rest of the apps.
+
 ## [1.1.0] - 2024-10-28
 
 ### Added
