@@ -47,7 +47,7 @@ longer ships hand-written configs per application. Instead:
 - [`backgrounds/`](backgrounds) holds the theme's wallpapers.
 
 If you're on an older Omarchy release that still uses per-app theme files,
-check out a tag before `v2.0.0` of this repo.
+check out the [`v1.1.0`](https://github.com/irythill/omarchy-cyberpunk-dreams-theme/releases/tag/v1.1.0) tag of this repo.
 
 ## 🚀 Installation
 
